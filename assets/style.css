@@ -104,3 +104,42 @@ body{
 }
 
 /* sign up styles */
+.signUpCon{
+    padding: 2% 5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.signUpCon .signUpBox{
+    display: grid;
+    gap: 20px;
+}
+.signUpCon .signUpBox h1{
+    color: #2B0724;
+    font-size: 1.5rem;
+}
+.signUpCon .signUpBox p{
+    font-size: 1rem;
+}
+.signUpCon .signUpBox form .signUpForm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.signUpCon .signUpBox input, .signUpCon .signUpBox select{
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.signUpCon .signUpBox input[type="submit"]{
+    background-color: #C22345;
+    cursor: pointer;
+    color: #fff;
+    grid-area: 8/1;
+}
+.signUpCon .signUpBox .inputBox{
+    display: grid;
+    gap: 3px;
+}
+.signUpCon .signUpBox p a{
+    color: #C22345;
+}
