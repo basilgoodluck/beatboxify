@@ -142,3 +142,26 @@ body{
 .signUpCon .signUpBox p a{
     color: #C22345;
 }
+.signInCon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5%;
+
+}
+.signInCon .signInBox{
+    display: grid;
+    gap: 20px;
+}
+.signInCon .signInForm{
+    display: grid;
+    gap: 10px;
+}
+.signInCon .signInForm input{
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.signInCon .signInForm input[type="submit"]{
+    background-color: #C22345;
+    color: #fff;
+}
