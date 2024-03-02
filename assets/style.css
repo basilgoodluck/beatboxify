@@ -11,7 +11,7 @@
 body{
     font-family: roboto;
     scroll-behavior: smooth;
-    overflow: hidden;
+    height: 100vh;
     position: relative;
 }
 .headerCon{
