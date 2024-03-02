@@ -1,2 +1,2 @@
-# Beatboxify
-Beatboxify is a media web app for storing and using media files.
+# fileBox
+FileBox is a media web app for storing and using media files.
