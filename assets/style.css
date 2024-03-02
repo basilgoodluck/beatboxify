@@ -11,7 +11,6 @@
 body{
     font-family: roboto;
     scroll-behavior: smooth;
-    height: 100vh;
     overflow: hidden;
     position: relative;
 }
@@ -38,6 +37,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60vh;
 }
 .homeCon .homeBox{
     display: grid;
