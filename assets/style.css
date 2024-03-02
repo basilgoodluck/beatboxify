@@ -93,7 +93,7 @@ body{
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     gap: 20px;
     color: #C22345;
 }
@@ -164,4 +164,7 @@ body{
 .signInCon .signInForm input[type="submit"]{
     background-color: #C22345;
     color: #fff;
+}
+.signInCon .signInBox p a{
+    color: #C22345;
 }
