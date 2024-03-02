@@ -37,7 +37,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 60vh;
+    height: 60vh;
 }
 .homeCon .homeBox{
     display: grid;
@@ -86,7 +86,7 @@ body{
 } */
 .footerCon{
     padding: 2% 5%;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     text-align: center;
 }
 .footerBox .connectBox{
