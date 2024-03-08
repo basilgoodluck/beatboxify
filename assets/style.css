@@ -13,11 +13,14 @@ body{
     scroll-behavior: smooth;
     height: 100vh;
     position: relative;
+    color: #0b0e36;
 }
+
 .headerCon{
     padding: 2% 5%;  
     /* background-color: #f4f4f4;   */
-    background-color: #C22345;
+    background-color: #eee;
+    box-shadow: 0 0 80px #eee;
 }
 .headerCon .headerBox{
     display: flex;
@@ -25,7 +28,7 @@ body{
     align-items: center;
 }
 .headerCon .headerBox h1{
-    color: #2B0724;
+    /* color: #fff; */
     font-family: "Righteous", sans-serif;
     font-size: 3rem;
 }
@@ -38,6 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 60vh;
+    background-color: #fff;
 }
 .homeCon .homeBox{
     display: grid;
@@ -45,10 +49,11 @@ body{
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    /* color: #fff; */
 }
 .homeCon .homeBox h1{
     font-size: 2rem;
-    color: #2B0724;
+    /* color: #fff; */
 }
 .homeCon .homeBox h1 span{
     font-size: 3rem;
@@ -56,6 +61,7 @@ body{
 }
 .homeCon .homeBox p{
     font-size: 14px;
+    color: #fff;
 }
 .homeCon .homeBox .btnBox{
     padding: 2% 0;
@@ -69,13 +75,28 @@ body{
 .homeCon .homeBox .btnBox p a{
     padding: 10px 30px;
     color: #fff;
-    background-color: #23C260;
+    background-color: #0b0e36;
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 0 0 10px #f4f4f4;
+    box-shadow: 0 0 10px #eee;
 }
 .homeCon .homeBox .btnBox p:nth-of-type(2) a{
-    background-color: #C22345;
+    background-color: #0b0e36;
+    /* box-shadow: 0 0 10px #C22345; */
+}
+.reviewBox{
+    padding: 5%;
+}
+.reviewBoxTXT{
+    background-color: #eee;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px #eee;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10%;
 }
 /* .footerSec{
     position: absolute;
