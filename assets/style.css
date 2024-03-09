@@ -94,10 +94,15 @@ body{
     margin: 0 auto;
     box-shadow: 0 0 20px #eee;
     display: grid;
+    gap: 20px;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
     padding: 10%;
+}
+.reviewBoxTXT p i{
+    padding: 2%;
+    font-size: 4rem;
 }
 /* .footerSec{
     position: absolute;
@@ -211,5 +216,9 @@ body{
     }
     .reviewBox .reviewBoxTXT{
         width: 80%;
+        gap: 10px;
+    }
+    .reviewBoxTXT p i{
+        font-size: 2.5rem;
     }
 }
