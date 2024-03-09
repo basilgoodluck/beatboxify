@@ -49,6 +49,7 @@ body{
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    transition: height 0.5s ease;
     /* color: #fff; */
 }
 .homeCon .homeBox h1{
