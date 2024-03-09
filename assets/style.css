@@ -60,6 +60,9 @@ body{
     font-size: 3rem;
     font-family: "Righteous", sans-serif;
 }
+.homeCon .homeBox h4{
+    font-weight: 300;
+}
 .homeCon .homeBox p{
     font-size: 14px;
     color: #fff;
