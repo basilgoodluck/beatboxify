@@ -189,3 +189,26 @@ body{
 .signInCon .signInBox p a{
     color: #C22345;
 }
+
+/* M E D I A Q U E R Y S T Y L E S */
+
+@media screen and (max-width: 900px) {
+    .headerBox h1 span{
+        font-size: 2rem;
+    }
+    .homeCon .homeBox h1{
+        font-size: 1.5rem;
+    } 
+    .homeCon .homeBox h1 span{
+        font-size: 2rem;
+    }   
+    .homeCon .homeBox .btnBox{
+        gap: 10px;
+    }
+    .homeCon .homeBox .btnBox p a{
+        padding: 5px 12px;
+    }
+    .reviewBox .reviewBoxTXT{
+        width: 80%;
+    }
+}
